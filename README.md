@@ -35,5 +35,5 @@ Aplicação web full stack que permite gerenciar uma galeria de itens com imagen
 ### 🔙 Backend
 ```bash
 git clone https://github.com/Pfssantos1/ItemGallery.git
-cd ItemGallery/backend
+cd ItemGallery/Backend
 npm install
