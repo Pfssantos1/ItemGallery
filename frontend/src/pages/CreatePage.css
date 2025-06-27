@@ -1,0 +1,55 @@
+.create-page {
+  background: var(--bg-page);
+  min-height: calc(100vh - 80px);
+  padding: 20px;
+  text-align: center;
+}
+
+.create-hero {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.create-hero img {
+  max-width: 300px;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 20px;
+  color: var(--secondary);
+  font-weight: 500;
+  cursor: pointer;
+}
+.btn.back::before {
+  content: "←";
+}
+
+.create-page h2 {
+  color: var(--text-dark);
+  margin-bottom: 20px;
+}
+
+.error-msg {
+  color: var(--danger);
+  margin-bottom: 15px;
+}
+
+.loading {
+  color: var(--secondary);
+  margin: 15px 0;
+}
+
+.create-page .item-form {
+  background: var(--bg-card);
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px var(--shadow);
+  text-align: left;
+}
